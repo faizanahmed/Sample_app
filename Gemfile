@@ -5,6 +5,7 @@ ruby '2.0.0'
 gem 'rails', '4.0.1'
 gem 'pg'
 gem 'therubyracer', platforms: :ruby
+gem 'bcrypt-ruby', '3.1.2'
 gem 'bootstrap-sass', '2.0'
 group :development, :test do
 	gem 'guard-rspec'
