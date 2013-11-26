@@ -1,3 +1,26 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.custom_class
+{
+	
+	background-image: asset_url("img.jpg");
+	background-repeat: no-repeat;
+	
+	background-size: 100% 100%;
+	h1
+	{
+	color:white;
+
+	}
+	h2
+	{
+	color: #FCFF8B;
+	}
+}
+.bodyback
+{
+	background-image: asset_url("bkg.jpg");
+	background-size: 100% 120%;
+	background-repeat: repeat-y;
+}
