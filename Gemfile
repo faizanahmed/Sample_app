@@ -6,7 +6,7 @@ gem 'rails', '4.0.1'
 gem 'pg'
 gem 'therubyracer', platforms: :ruby
 gem 'bcrypt-ruby', '3.1.2'
-gem 'bootstrap-sass', '2.0'
+gem 'bootstrap-sass'
 group :development, :test do
 	gem 'guard-rspec'
   
@@ -18,6 +18,8 @@ group :development, :test do
 end
 
 group :test do
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
   gem 'selenium-webdriver'
   gem 'capybara', '2.1.0'
 end
@@ -25,7 +27,6 @@ gem 'sass-rails', '4.0.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
-gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'factory_girl_rails'
 
